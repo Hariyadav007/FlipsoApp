@@ -3,7 +3,8 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-  Name: Default
+  name: 'Default'
+
 steps:
 - task: UseDotNet@2
   inputs:
